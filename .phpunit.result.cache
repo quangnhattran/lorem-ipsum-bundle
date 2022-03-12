@@ -1,0 +1,1 @@
+{"version":1,"defects":{"KnpU\\LoremIpsumBundle\\Tests\\KnpUIpsumTest::testGetWords":6},"times":{"KnpU\\LoremIpsumBundle\\Tests\\KnpUIpsumTest::testGetWords":0.002,"KnpU\\LoremIpsumBundle\\Tests\\KnpUIpsumTest::testGetSentences":0,"KnpU\\LoremIpsumBundle\\Tests\\KnpUIpsumTest::testGetParagraphs":0.017}}

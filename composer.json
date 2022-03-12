@@ -1,0 +1,25 @@
+{
+    "name": "qt/lorem-ipsum-bundle",
+    "description": "Unicorn??",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quang Tran",
+            "email": "quang.tran@hometogo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KnpU\\LoremIpsumBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KnpU\\LoremIpsumBundle\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "^6.0"
+    }
+}
