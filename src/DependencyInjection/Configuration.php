@@ -10,7 +10,7 @@ class Configuration implements ConfigurationInterface
 {
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
+        $treeBuilder = new TreeBuilder('knpu_lorem_ipsum');
         $rootNode = $treeBuilder->root('knpu_lorem_ipsum');
 
         $node = (new ArrayNodeDefinition('level1'))
@@ -24,7 +24,6 @@ class Configuration implements ConfigurationInterface
             ->children()
                 ->booleanNode('unicorns_are_real')->defaultTrue()->info('Whether or not you believe in unicorn?')->end()
                 ->integerNode('min_sunshine')->defaultValue(3)->info('How many sunshine you want?')->end()
-                ->scalarNode('word_provider')->defaultNull()->end()
                 ->append($node)
             ->end();
 
